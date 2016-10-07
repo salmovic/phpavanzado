@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="views/mobirise/css/mbr-additional.css" type="text/css">
   <link rel="stylesheet" href="views/fontawesome/css/fonts.css" type="text/css">
 
-<!-- Mis funciones js -->
+<!-- Funciones generales de js js -->
 <script src="views/app/js/generales.js"></script>
 
 </script>

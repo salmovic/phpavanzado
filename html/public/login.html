@@ -1,16 +1,20 @@
 <div class="modal fade" id="Login" role="dialog">
    <div class="modal-dialog">
-
      <div class="modal-content">
+			 <!-- Alerta -->
+	 		<div id="_AJAX_LOGIN_">
+	 		</div>
+			
        <div class="modal-header">
          <button type="button" class="close" data-dismiss="modal">&times;</button>
          <h4 style="color:red;"><span class="glyphicon glyphicon-lock"></span> Iniciar Sesión</h4>
        </div>
        <div class="modal-body">
-         <div role="form" onkeypress="return runScriptLogin(event)">
+				 <!-- onkeypress captura el evento enter o click -->
+         <div role="form" onkeypress="runScriptLogin(event);">
            <div class="form-group">
              <label for="usrname_or_email"><span class="glyphicon glyphicon-user"></span> Usuario o Email</label>
-             <input type="text" class="form-control" id="user_login" placeholder="Introducir Email">
+             <input type="text" class="form-control" id="user_login" placeholder="Introducir Email" autofocus>
            </div>
            <div class="form-group">
              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Contraseña</label>
@@ -19,7 +23,7 @@
            <div class="checkbox">
              <label><input type="checkbox" value="1" id="session_login" checked>Recordarme</label>
            </div>
-           <button type="button" class="btn btn-default btn-success btn-block" id="iniciar_sesion"><span class="glyphicon glyphicon-off"></span> Iniciar Sesión</button>
+           <button type="button" class="btn btn-default btn-success btn-block" id="iniciar_sesion" onclick="goLogin();"><span class="glyphicon glyphicon-off"></span> Iniciar Sesión</button>
          </div>
        </div>
        <div class="modal-footer">

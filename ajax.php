@@ -1,1 +1,4 @@
-<!--Se encarga de manipular todas las peticiones Ajax-->
+<?php
+// Se encarga de manipular todas las peticiones Ajax
+echo 1;
+ ?>
